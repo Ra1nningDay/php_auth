@@ -1,0 +1,16 @@
+{
+  "name": "php_auth/auth-system",
+  "description": "A simple PHP authentication system",
+  "type": "project",
+  "require": {
+    "vlucas/phpdotenv": "^5.6",
+    "firebase/php-jwt": "^6.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "classes/"
+    }
+  },
+  "minimum-stability": "stable",
+  "license": "MIT"
+}
